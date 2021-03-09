@@ -1,8 +1,8 @@
 # Intern Roster 2021
 
-Inan Xu
-GitHub Handle: `ixukw`
+Isaac Ephrem
+GitHub Handle: `ije2c`
 
 MacOS
-Pacific Standard Time (PST)
-2021
+Central Standard Time (CST)
+Start Date: March 8, 2021
