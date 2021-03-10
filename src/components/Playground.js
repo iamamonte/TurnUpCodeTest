@@ -22,6 +22,8 @@ import PopOverTrigger from "./practice/PopOverButton";
 import LanguageList from './practice/LanguageList';
 import JokeModal from "./practice/JokeModal";
 
+import Popup from './practice/Popup';
+
 /** Components Continued */
 import PeopleComponent from "./PeopleComponent";
 // import ConfirmationBox from "./ConfirmationBox";
@@ -35,7 +37,7 @@ import {Interns, Profiles} from '../data/dummyData'
 
 let amonte = Interns.amonte, sanjana = Interns.sanjana, 
 shayan = Interns.shayan, sonia = Interns.sonia, adil = Interns.adil, kyle = Interns.kyle, 
-henry = Interns.henry, disha = Interns.disha, luis = Interns.luis;
+henry = Interns.henry, disha = Interns.disha, luis = Interns.luis, Yumeng = Interns.Yumeng;
 
 
 let amonteProfile = Profiles.amonte, kyleProfile = Profiles.kyle;
@@ -77,7 +79,7 @@ const ConfirmModal = ({header, content}) => {
 const Playground = (props) => {
   const [show, setShow] = useState(false);
   const[showJoke, setJoke]=useState(false);
-
+  const[buttonPopup, setButtonPopup] = useState(false);
   
 
   return (
@@ -104,6 +106,8 @@ const Playground = (props) => {
                 <div>Hi, welcome.</div>
               </InternInfoDisplay>
             </Col>
+
+
             <Col className="my-3">
               <InternInfoDisplay
                 intern={sanjana}
@@ -220,6 +224,18 @@ const Playground = (props) => {
                 hide={()=>setJoke(false)}/>
                 <div>Programming Joke: What is a ghost's favorite type?</div>
               </InternInfoDisplay>
+            </Col>
+
+            <Col className="my-3">
+              <InternInfoDisplay
+                intern={Yumeng}
+                onClick = {() => setButtonPopup(true)}
+              >
+                <div>Looking forward to working with you!</div>
+              </InternInfoDisplay>
+              <Popup trigger = {buttonPopup} setTrigger = {setButtonPopup}>
+                <p>Hello, I'm currently in my 2nd year in Master Program at The Ohio State University. I'm a self-motivated individual, love to learn and apply my skills in a professional setting! ;)</p>
+              </Popup>
             </Col>
 
           </Row>

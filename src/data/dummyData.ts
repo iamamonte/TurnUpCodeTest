@@ -69,8 +69,15 @@ let amonte = new Intern(
     "https://i.pinimg.com/600x315/88/5b/7b/885b7b783181234c51ea17ec48a02506.jpg",
     new Date("8/30/20")
   );
+  let Yumeng = new Intern(
+    "Yumeng",
+    "2nd Year Master Program at OSU",
+    "Intern (Web/Mobile Dev)",
+    "https://images.unsplash.com/photo-1461353789837-8eb180f968d2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218fHx8fHx8fHwxNjE1MzM0MDI4&ixlib=rb-1.2.1&q=80&w=1080&utm_source=unsplash_source&utm_medium=referral&utm_campaign=api-credit",
+    new Date("8/10/21")
+  );
 
-  const Interns = {amonte:amonte, luis:luis, kyle:kyle,adil:adil, disha:disha, sonia:sonia,henry:henry,shayan:shayan,sanjana:sanjana};
+  const Interns = {amonte:amonte, Yumeng:Yumeng, luis:luis, kyle:kyle,adil:adil, disha:disha, sonia:sonia,henry:henry,shayan:shayan,sanjana:sanjana};
 
 
 
