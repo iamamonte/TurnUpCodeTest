@@ -1,8 +1,8 @@
 # Intern Roster 2021
 
-Inan Xu
-GitHub Handle: `ixukw`
+Yijie Sun
+GitHub Handle: `MapleSun`
 
 MacOS
-Pacific Standard Time (PST)
-2021
+Eastern Standard Time (PST)
+05/31/2021~08/31/2021
