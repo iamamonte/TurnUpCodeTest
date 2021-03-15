@@ -17,7 +17,7 @@ import ReactTask2 from "./components/interns/ReactTask2";
 import soniaPage from "./components/interns/soniaPage";
 import AdilPage from "./components/interns/AdilPage";
 import inanPage from "./components/interns/inanPage";
-
+import YumengPage from "./components/interns/YumengPage";
 import CreateAccount from "./components/CreateAccount";
 import SignUpForm from "./components/TestingForm";
 import NavBarComponent from "./components/NavBarComponent"

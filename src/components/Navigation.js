@@ -25,11 +25,8 @@ const Navigation = () => {
             <Link className="dropdown-item" to='/interns/reacttask2'>React Task 2</Link>
             <Link className="dropdown-item" to="/interns/soniaPage">Sonia's Page</Link>
             <Link className="dropdown-item" to="/interns/adilPage">Adil's Page</Link>
-<<<<<<< HEAD
             <Link className="dropdown-item" to="/interns/YumengPage">Yumeng's Page</Link>
-=======
             <Link className="dropdown-item" to="/interns/inanPage">Inan's Page</Link>
->>>>>>> 3f034ecd445c4dd143f0b2038c9d002ae02aedde
             <Link className="dropdown-item" to="/CreateAccount">Create Account</Link>
             <Link className="dropdown-item" to="/TestingForm">Testing Form</Link>
             <Link className="dropdown-item" to="/Playground">Playground</Link>
