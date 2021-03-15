@@ -17,6 +17,7 @@ import ReactTask2 from "./components/interns/ReactTask2";
 import soniaPage from "./components/interns/soniaPage";
 import AdilPage from "./components/interns/AdilPage";
 import inanPage from "./components/interns/inanPage";
+import AminPage from "./components/interns/AminPage";
 
 import CreateAccount from "./components/CreateAccount";
 import SignUpForm from "./components/TestingForm";
@@ -51,7 +52,7 @@ const App = () => {
             <Route path="/interns/soniaPage" component={soniaPage} />
             <Route path="/interns/AdilPage" component={AdilPage} />
             <Route path="/interns/inanPage" component={inanPage} />
-
+            <Route path="/interns/AminPage" component={AminPage} />
             <Route path="/CreateAccount" component={CreateAccount} />
             <Route path="/TestingForm" component={SignUpForm}/>
             <Route path="/ReactFormikTest" component={BootstrapFormikExample} />
