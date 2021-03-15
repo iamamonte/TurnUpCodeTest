@@ -5,7 +5,7 @@ import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
 class Counter extends Component{
   render(){
-    console.log(this.props.count);
+    console.log(this.props.counter);
     return(
       
         
@@ -13,7 +13,7 @@ class Counter extends Component{
        
          
               <h1>
-                {this.props.count}
+                {this.props.counter}
               </h1>
           
           
@@ -30,7 +30,7 @@ class Counter extends Component{
 }
 function mapStateToProps(state){
   return{
-    count : state.count
+    counter : state.counter
   };
 }
 function matchDispatchToProps(dispatch){
