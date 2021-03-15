@@ -1,12 +1,10 @@
-const counterReducer = (state = 0, action) => {
-    switch(action.type){
-        case 'INCREMENT_ASYNC':
-            return state + 1;
-        case 'DECREMENT_ASYNC':
-            return state - 1;
-        default:
-            return state;
-    }
+let count= 0;
+export default function(state=count, action){
+  switch (action.type) {
+    case "Increment": count++;
+      break;
+    case "Decrement": count--;
+      break;
+  }
+  return count;
 }
-
-export default counterReducer;
