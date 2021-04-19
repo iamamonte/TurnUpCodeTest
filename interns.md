@@ -14,3 +14,9 @@ Pacific Standard Time (PST)
 * time zone: Eastern Standard Time (EST)
 * start/end date: 5/1/2021 - 8/10/2021
 ---
+
+### Dominic Fernandez
+- <b>Github Handle</b>: dcfernandez1023
+- <b>OS</b>: Windows
+- <b>Time Zone</b>: Pacific Daylight Time (PST)
+- <b> Desired Start/End Date</b> 5/21/21 - 8/27/21
