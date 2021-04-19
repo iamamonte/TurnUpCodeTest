@@ -3,7 +3,7 @@
 */
 
 
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 
 /* React Boostrap imports */
 import Container from 'react-bootstrap/Container';
@@ -21,7 +21,7 @@ function DominicPage() {
 
   const domIntern = new Intern (
     "Dominic Fernandez",
-    "Hello 👋, my name is Dominic Fernandez.  I am a currently a student at the University of San Francisco (a.ka. Zoom University), pursuing a B.S in Computer Science.",
+    "Hello, my name is Dominic Fernandez.  I am a currently a student at the University of San Francisco (a.ka. Zoom University), pursuing a B.S in Computer Science.",
     "",
     "",
     new Date(2021, 8, 27)
@@ -54,7 +54,7 @@ function DominicPage() {
               {myInterests.map((interest) => {
                 return (
                   <div style={bulletPointStyle}>
-                    ⭐ {interest}
+                    <span role="img" aria-label="star"> ⭐ {interest} </span>
                   </div>
                 );
               })}
