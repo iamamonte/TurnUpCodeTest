@@ -27,6 +27,7 @@ const Navigation = () => {
             <Link className="dropdown-item" to="/interns/adilPage">Adil's Page</Link>
             <Link className="dropdown-item" to="/interns/YumengPage">Yumeng's Page</Link>
             <Link className="dropdown-item" to="/interns/inanPage">Inan's Page</Link>
+            <Link className="dropdown-item" to="/interns/DominicPage"> Dominic's Page </Link>
             <Link className="dropdown-item" to="/CreateAccount">Create Account</Link>
             <Link className="dropdown-item" to="/TestingForm">Testing Form</Link>
             <Link className="dropdown-item" to="/Playground">Playground</Link>

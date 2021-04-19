@@ -18,6 +18,7 @@ import soniaPage from "./components/interns/soniaPage";
 import AdilPage from "./components/interns/AdilPage";
 import inanPage from "./components/interns/inanPage";
 import YumengPage from "./components/interns/YumengPage";
+import DominicPage from "./components/interns/DominicPage";
 import CreateAccount from "./components/CreateAccount";
 import SignUpForm from "./components/TestingForm";
 import NavBarComponent from "./components/NavBarComponent"
@@ -52,13 +53,14 @@ const App = () => {
             <Route path="/interns/AdilPage" component={AdilPage} />
             <Route path="/interns/YumengPage" component={YumengPage} />
             <Route path="/interns/inanPage" component={inanPage} />
+            <Route path="/interns/DominicPage" component={DominicPage} />
 
             <Route path="/CreateAccount" component={CreateAccount} />
             <Route path="/TestingForm" component={SignUpForm}/>
             <Route path="/ReactFormikTest" component={BootstrapFormikExample} />
             <Route path="/ResourcePage" component={ResourcePage} />
             <Route path="/EventsPage" component={EventsPage} />
-            <Route path="/HomePage" component={HomePage} />            
+            <Route path="/HomePage" component={HomePage} />
             <Route path="/EventDetails" component={EventDetails} />
             <Route component={PageNotFound} />
           </Switch>
