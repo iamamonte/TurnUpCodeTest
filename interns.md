@@ -19,4 +19,10 @@ Pacific Standard Time (PST)
 - <b>Github Handle</b>: dcfernandez1023
 - <b>OS</b>: Windows
 - <b>Time Zone</b>: Pacific Daylight Time (PST)
-- <b> Desired Start/End Date</b> 5/21/21 - 8/27/21
+- <b> Desired Start/End Date</b> 5/21/21 - 8/27/21 
+---
+### Sean Curley
+* <b>GitHub Handle: </b> curley2121
+* <b>OS: </b> Mac
+* <b>Time Zone: </b> Eastern Standard Time (EST)
+* <b>Start/End Date: </b> 5/24/21 - 8/27/24
