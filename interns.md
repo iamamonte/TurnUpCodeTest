@@ -25,4 +25,4 @@ Pacific Standard Time (PST)
 * <b>GitHub Handle: </b> curley2121
 * <b>OS: </b> Mac
 * <b>Time Zone: </b> Eastern Standard Time (EST)
-* <b>Start/End Date: </b> 5/24/21 - 8/27/24
+* <b>Start/End Date: </b> 5/24/21 - 8/27/21

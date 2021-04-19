@@ -16,6 +16,7 @@ import PageNotFound from "./components/PageNotFound";
 import ReactTask2 from "./components/interns/ReactTask2";
 import soniaPage from "./components/interns/soniaPage";
 import AdilPage from "./components/interns/AdilPage";
+import SeanPage from "./components/interns/SeanPage";
 import inanPage from "./components/interns/inanPage";
 import YumengPage from "./components/interns/YumengPage";
 import CreateAccount from "./components/CreateAccount";
@@ -50,6 +51,7 @@ const App = () => {
             <Route path='/interns/reacttask2' component={ReactTask2} />
             <Route path="/interns/soniaPage" component={soniaPage} />
             <Route path="/interns/AdilPage" component={AdilPage} />
+            <Route path="/interns/SeanPage" component={SeanPage} />
             <Route path="/interns/YumengPage" component={YumengPage} />
             <Route path="/interns/inanPage" component={inanPage} />
 
