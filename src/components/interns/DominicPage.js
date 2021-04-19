@@ -12,10 +12,20 @@ import Col from 'react-bootstrap/Col';
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
 
+import InternInfoDisplay from "../practice/InternInfoDisplay";
+import {Intern} from "../../model/Intern";
+
 function DominicPage() {
 
   const[isOpen, setIsOpen] = useState(false);
 
+  const domIntern = new Intern (
+    "Dominic Fernandez",
+    "Hello 👋, my name is Dominic Fernandez.  I am a currently a student at the University of San Francisco (a.ka. Zoom University), pursuing a B.S in Computer Science.",
+    "",
+    "",
+    new Date(2021, 8, 27)
+  );
   const bulletPointStyle = {marginLeft: "20px"};
   const myInterests = [
     "Hiking, backpacking, and being in nature 🌳",
@@ -63,12 +73,24 @@ function DominicPage() {
       <br/>
       <Row>
         <Col>
+          <InternInfoDisplay
+            intern={domIntern}
+            onClick={()=> {
+              setIsOpen(true);
+            }}
+            />
+          </Col>
+      </Row>
+      {/*
+      <Row>
+        <Col>
           <p>
             Hello 👋, my name is Dominic Fernandez.  I am a currently a student at the University of San Francisco (a.ka. Zoom University), pursuing a B.S in Computer Science.
           </p>
         </Col>
       </Row>
-      <br/>
+      */}
+      {/*
       <Row>
         <Col>
           <Button variant="outline-dark" onClick={() => {setIsOpen(true)}}>
@@ -76,6 +98,7 @@ function DominicPage() {
           </Button>
         </Col>
       </Row>
+      */}
     </Container>
   );
 }
