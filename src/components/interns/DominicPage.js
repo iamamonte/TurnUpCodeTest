@@ -50,15 +50,15 @@ function DominicPage() {
             <p>
               Here's a little bit about myself and some of my interests:
             </p>
-            <p>
-              {myInterests.map((interest) => {
+            <div>
+              {myInterests.map((interest, index) => {
                 return (
-                  <div style={bulletPointStyle}>
+                  <div style={bulletPointStyle} key={index}>
                     <span role="img" aria-label="star"> ⭐ {interest} </span>
                   </div>
                 );
               })}
-            </p>
+            </div>
           </Modal.Body>
           <Modal.Footer>
             <Button variant="success" onClick={() => {setIsOpen(false)}}>
