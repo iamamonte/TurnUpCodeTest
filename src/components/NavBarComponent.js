@@ -30,7 +30,8 @@ const NavBarComponent = ({ img }) => {
                         <Link className="dropdown-item" to="/interns/SeanPage">Sean's Page</Link>
                         <Link className="dropdown-item" to="/interns/YumengPage">Yumeng's Page</Link>
                         <Link className="dropdown-item" to="/interns/inanPage">Inan's Page</Link>
-
+                        <Link className="dropdown-item" to="/interns/DominicPage"> Dominic's Page </Link>
+                        
                         <Link className="dropdown-item" to="/CreateAccount">Create Account</Link>
                         <Link className="dropdown-item" to="/TestingForm">Form Test</Link>
                         <Link className="dropdown-item" to="/ReactFormikTest">React Bootstrap Formik Example</Link>
